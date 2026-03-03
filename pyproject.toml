@@ -1,0 +1,12 @@
+[project]
+name = "persly-paper-review"
+version = "0.1.0"
+description = "Multi-agent paper review runner (bash launcher + OpenAI API + rich dashboard)"
+requires-python = ">=3.10"
+dependencies = [
+  "openai>=1.40.0",
+  "rich>=13.7.1",
+]
+
+[tool.uv]
+package = false

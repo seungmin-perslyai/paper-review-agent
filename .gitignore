@@ -1,3 +1,9 @@
 .DS_Store
 .worktrees/
 papers/
+outputs/
+__pycache__/
+.pytest_cache/
+.venv/
+.persly/
+.env.local
